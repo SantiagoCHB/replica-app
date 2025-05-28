@@ -1,0 +1,22 @@
+/* src/index.css */
+
+/* Reset global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegura que el html, body y el contenedor principal ocupen el 100% */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo base para el body */
+body {
+  font-family: sans-serif;
+  background-color: #fff;  /* Cambia este color si deseas otro fondo */
+}

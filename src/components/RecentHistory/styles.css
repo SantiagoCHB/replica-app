@@ -1,0 +1,30 @@
+.recent-history {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.recent-history h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.recent-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-history li {
+  margin-bottom: 10px;
+}
+
+.recent-history a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.recent-history a:hover {
+  color: #ff4500;
+}
