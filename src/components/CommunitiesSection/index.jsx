@@ -60,12 +60,6 @@ const CommunitiesSection = ({ user }) => {
               <h4>{comm.nombre}</h4>
               <p>{comm.descripcion}</p>
             </div>
-            <button
-              className="join-btn"
-              onClick={() => joinCommunity(comm.id)}
-            >
-              Unirse
-            </button>
           </div>
         ))
       )}
