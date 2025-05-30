@@ -1,0 +1,125 @@
+/* Fondo oscuro al abrir el modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor del modal */
+.modal-content {
+  background: #fff;  /* Mantiene el fondo blanco */
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  color: #000; /* Cambia el texto dentro del modal a negro */
+}
+
+/* Aseguramos que todos los textos dentro sean visibles */
+.modal-content p,
+.modal-content a {
+  color: #000; /* Color negro para texto */
+}
+
+/* Términos y condiciones */
+.terms {
+  font-size: 14px;
+}
+
+.terms a {
+  color: #0079d3;
+  text-decoration: none;
+}
+
+/* Botones de login */
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  padding: 10px;
+  font-size: 16px;
+  background: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #ccc;
+}
+
+/* Separador visual */
+.divider {
+  margin: 10px 0;
+  color: #999;
+}
+
+/* Formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Corrección: Asegurar que los placeholders sean visibles */
+.login-form input::placeholder {
+  color: #888;
+}
+
+/* Link "Olvidaste tu contraseña?" */
+.forgot-password {
+  font-size: 14px;
+  color: #0079d3;
+  text-decoration: none;
+}
+
+/* Corrección: Asegurar que el texto de registro aparezca bien */
+.register-section {
+  margin-top: 10px;
+}
+
+.register-section p {
+  font-size: 14px;
+  color: #000; /* Se asegura que el texto sea negro */
+}
+
+.register-section a {
+  color: #0079d3;
+  text-decoration: none;
+}
+
+/* Botón de cerrar */
+.close-btn {
+  padding: 8px 15px;
+  background: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #e03d00;
+}

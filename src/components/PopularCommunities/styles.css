@@ -1,0 +1,47 @@
+.popular-communities {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.popular-communities h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.popular-communities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.popular-communities li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.popular-communities a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.popular-communities a:hover {
+  color: #ff4500;
+}
+
+.see-more-btn {
+  width: 100%;
+  padding: 8px;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.see-more-btn:hover {
+  background-color: #e03d00;
+}

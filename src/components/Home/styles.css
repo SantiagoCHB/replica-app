@@ -2,18 +2,39 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 100%;
-  background-color: #fff;
 }
 
+/* Aseguramos que el contenedor principal se disponga en filas */
 .main-content {
   display: flex;
-  flex: 1;
+  flex-direction: row;           /* Asegura que los hijos se ubiquen horizontalmente */
+  align-items: flex-start;        /* Los elementos se alinean por la parte superior */
   width: 100%;
 }
 
+/* Opcional: fija un ancho para el Sidebar si no lo tiene ya */
+.main-content > .sidebar,
+.main-content > [class*="Sidebar"] {
+  flex: 0 0 250px;  /* Ajusta según el ancho real de tu Sidebar */
+}
+
+/* Columna central: donde se muestran los posts. Se expande para ocupar el espacio restante. */
 .content-area {
-  flex: 1;
+  flex: 1;           /* Crece para ocupar el espacio disponible */
+  min-width: 0;      /* Permite que el contenedor se reduzca sin forzar ancho */
   padding: 20px;
-  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Columna derecha: se muestra el contenedor de RecentHistory y CommunitiesSection */
+.post-extra {
+  flex: 0 0 300px;   /* Fija un ancho de 300px */
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+  
+  /* Para apilar sus componentes verticalmente */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

@@ -1,0 +1,72 @@
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.popular-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Sección de posts en tendencia */
+.trending-section {
+  margin-bottom: 30px;
+}
+
+.trending-section h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.trending-posts-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.trending-post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(50% - 20px); /* Dos columnas; ajusta según sea necesario */
+  background-color: #fff;
+}
+
+.trending-image img {
+  width: 100%;
+  height: auto;
+}
+
+.trending-info {
+  padding: 10px;
+}
+
+.trending-info h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.trending-summary {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.trending-community {
+  font-size: 12px;
+  color: #999;
+}
+
+/* Posts recientes */
+.posts-feed h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}

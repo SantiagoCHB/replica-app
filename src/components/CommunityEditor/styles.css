@@ -1,0 +1,65 @@
+.modal-overlay.community-editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content.community-editor-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.community-editor-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-editor-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.community-editor-form input,
+.community-editor-form textarea {
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.community-editor-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.update-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -12,6 +12,21 @@
   font-size: 24px;
 }
 
+/* Barra de búsqueda */
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
 .header nav {
   display: flex;
 }
@@ -25,4 +40,37 @@
 
 .header nav a:hover {
   text-decoration: underline;
+}
+
+.login-btn-header {
+  padding: 8px 15px;
+  background: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-btn-header:hover {
+  background: #e03d00;
+}
+
+/* Aseguramos que la alineación sea uniforme */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a, .login-btn-header {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 40px; /* Ajusta según necesidad */
+  height: auto;
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+  vertical-align: middle;
 }

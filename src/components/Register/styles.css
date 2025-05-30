@@ -1,0 +1,92 @@
+/* Fondo oscuro al abrir el modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor principal del modal */
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  color: #000;
+}
+
+/* Términos y condiciones */
+.terms {
+  font-size: 14px;
+}
+
+.terms a {
+  color: #0079d3;
+  text-decoration: none;
+}
+
+/* Formulario */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.register-form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.register-form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Placeholder en formulario */
+.register-form input::placeholder {
+  color: #888;
+}
+
+/* Link de cambio a Login */
+.login-link {
+  margin-top: 10px;
+}
+
+.login-link p {
+  font-size: 14px;
+}
+
+.switch-modal {
+  background: none;
+  border: none;
+  color: #0079d3;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.switch-modal:hover {
+  color: #0056a3;
+}
+
+/* Botón de cerrar */
+.close-btn {
+  padding: 8px 15px;
+  background: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #e03d00;
+}

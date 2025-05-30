@@ -1,8 +1,9 @@
 .recent-history {
-  width: 250px;
+  width: 100%;
   background-color: #f9f9f9;
   padding: 20px;
-  border-left: 1px solid #ddd;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .recent-history h3 {
@@ -13,6 +14,7 @@
 .recent-history ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .recent-history li {

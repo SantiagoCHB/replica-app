@@ -1,0 +1,70 @@
+/* Modal overlay para CommunityCreator */
+.modal-overlay.community-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Contenedor del modal */
+.modal-content.community-modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+/* Estilos para el formulario de comunidad */
+.community-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.community-form input,
+.community-form textarea {
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.community-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.community-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Botón para cerrar el modal */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
