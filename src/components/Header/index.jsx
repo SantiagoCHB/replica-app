@@ -26,7 +26,7 @@ const Header = ({ user }) => {
       </div>
       <nav>
         <Link to="/">Mensajes</Link>
-        <Link to="/notification">Notificaciones</Link>
+        <Link to="/">Notificaciones</Link>
         {user ? (
           <>
             <Link to="/perfil">Perfil</Link>
