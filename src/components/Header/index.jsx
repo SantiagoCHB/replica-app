@@ -18,9 +18,9 @@ const Header = ({ user }) => {
   };
 
   return (
-    <header className="header">   
+    <header className="header"> 
+      <img src={logo} alt="Logo de Reddit" className="logo-icon" />  
       <h1>Réplica de Reddit</h1>
-      <img src={logo} alt="Logo de Reddit" className="logo-icon" />
       <div className="search-bar">
         <input type="text" placeholder="Buscar en Reddit..." />
       </div>
