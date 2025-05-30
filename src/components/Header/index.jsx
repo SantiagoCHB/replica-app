@@ -17,6 +17,11 @@ const Header = ({ user }) => {
     setRegisterOpen(true);
   };
 
+  const handleOpenLogin = () => {
+    setLoginOpen(true);
+    setRegisterOpen(false);
+  };
+
   return (
     <header className="header"> 
       <img src={logo} alt="Logo de Reddit" className="logo-icon" />  
@@ -55,6 +60,8 @@ const Header = ({ user }) => {
       <Register
         isOpen={isRegisterOpen}
         onClose={() => setRegisterOpen(false)}
+        openLogin={handleOpenLogin}
+        
       />
     </header>
   );
